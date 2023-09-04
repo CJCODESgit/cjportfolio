@@ -7,7 +7,9 @@ import { ComputersCanvas } from './canvas';
 const Hero = () => {
   return (
     <section className='realtive w-full h-screen mx-auto'>
-
+      <div>
+        
+      </div>
     </section>
   )
 }
