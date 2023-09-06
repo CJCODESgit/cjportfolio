@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import {cj} from '../assets';
 
 import { styles } from '../styles';
 
@@ -14,10 +15,24 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eff] sm:block'>John Covenant</span></h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop web2/web3 applications, user interfaces and Data Analysis</p>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop web2/web3 applications,<br></br> user interfaces and Data Analysis</p>
+          
+            <img src={cj}  alt="billing" className='w-[30%] h-[40%] relative z-[5] flex flex-col items-end'/>
+          
         </div>
-      </div>
-       
+
+        
+        </div>
+
+      {/* button that moves users to the bottom of the contact section of the page */}
+
+       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+         <a href="#contact">
+          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
+
+          </div>
+         </a>
+       </div>
     </section>
   )
 }
