@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { ComputersCanvas } from './canvas';
+
 
 
 const Hero = () => {
@@ -17,7 +17,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>I develop web2/web3 applications, user interfaces and Data Analysis</p>
         </div>
       </div>
-      <ComputersCanvas />
+       
     </section>
   )
 }
