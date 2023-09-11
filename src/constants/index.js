@@ -24,6 +24,8 @@ import {
   tripguide,
   // threejs,
   MaterialUI,
+  Antdesign,
+  firebase,
 } from "../assets";
 
 export const navLinks = [
@@ -97,6 +99,14 @@ const technologies = [
   {
     name: "MaterialUI",
     icon: MaterialUI,
+  },
+  {
+    name: "Antdesign",
+    icon: Antdesign,
+  },
+  {
+    name: "firebase",
+    icon: firebase,
   },
   // {
   //   name: "MongoDB",
