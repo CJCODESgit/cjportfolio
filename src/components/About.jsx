@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant } from '../utils/motion';
+import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({index, title, icon}) => {
   return (
@@ -13,6 +14,7 @@ const ServiceCard = ({index, title, icon}) => {
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
         <div
+          // eslint-disable-next-line react/no-unknown-property
           options={{
             max: 45,
             scale: 1, 
@@ -57,4 +59,5 @@ const About = () => {
   )
 }
 
-export default About
+// eslint-disable-next-line react-refresh/only-export-components
+export default SectionWrapper (About, "about")
