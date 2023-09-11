@@ -9,8 +9,11 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const Works = () => {
   return (
-    <div>Works</div>
+    <>
+    
+    </>
   )
 }
 
-export default Works
+// eslint-disable-next-line react-refresh/only-export-components
+export default SectionWrapper(Works, "");
