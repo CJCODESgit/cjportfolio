@@ -8,13 +8,13 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  // redux,
   tailwind,
   nodejs,
-  mongodb,
+  // mongodb,
   git,
-  figma,
-  docker,
+  // figma,
+  // docker,
   meta,
   starbucks,
   tesla,
@@ -22,7 +22,7 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  // threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -60,6 +60,7 @@ const services = [
 ];
 
 const technologies = [
+  //commented tech are those i'm still learning
   {
     name: "HTML 5",
     icon: html,
@@ -80,10 +81,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -92,26 +93,26 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
