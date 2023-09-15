@@ -10,9 +10,11 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const Works = () => {
   return (
-    <div>
-
-    </div>
+    <>
+      <motion.div>
+        
+      </motion.div>
+    </>
   )
 }
 
