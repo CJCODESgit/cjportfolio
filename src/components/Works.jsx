@@ -29,7 +29,7 @@ const Works = () => {
           Projects displayed below showcases my skills and my experience. It shows my ability to solve problems and work with different technologies. contains links to repositories and demos in it.
         </motion.p>
 
-        <div>
+        <div className="mt-20 flex flex-wrap gap-7">
 
         </div>
       </div>
