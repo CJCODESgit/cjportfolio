@@ -24,6 +24,8 @@ import threejs from "./tech/threejs.svg";
 import MaterialUI from "./tech/MaterialUI.png";
 import Antdesign from "./tech/Ant-design.png";
 import firebase from "./tech/firebase.png";
+import Pandas from "./tech/Pandas.png";
+import Numpy from "./tech/Numpy.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -47,6 +49,8 @@ export {
   docker,
   figma,
   git,
+  Pandas,
+  Numpy,
   html,
   javascript,
   mongodb,

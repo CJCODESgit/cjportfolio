@@ -7,6 +7,7 @@ import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion';
 
 
+// eslint-disable-next-line react-refresh/only-export-components
 const Works = () => {
   return (
     <>
