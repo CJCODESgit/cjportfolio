@@ -1,4 +1,4 @@
-import Tilt from 'react-tilt';
+import { Tilt } from "react-tilt";
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { github } from '../assets';
@@ -7,14 +7,14 @@ import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion';
 
 
-// eslint-disable-next-line react-refresh/only-export-components
+
 const Works = () => {
   return (
-    <>
-    
-    </>
+    <div>
+
+    </div>
   )
 }
 
 // eslint-disable-next-line react-refresh/only-export-components
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "")
