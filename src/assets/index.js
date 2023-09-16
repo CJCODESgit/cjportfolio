@@ -27,14 +27,9 @@ import firebase from "./tech/firebase.png";
 import Pandas from "./tech/Pandas.png";
 import Numpy from "./tech/Numpy.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import CJMeals from "./CJMeals.png";
+import ExpenseTracker from "./ExpenseTracker.png";
+import freeX from "./free-x.png";
 
 export {
   logo,
@@ -63,12 +58,8 @@ export {
   Antdesign,
   firebase,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  CJMeals,
+  ExpenseTracker,
+  freeX,
   cj,
 };

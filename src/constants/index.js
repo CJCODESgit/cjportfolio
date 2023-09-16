@@ -15,9 +15,9 @@ import {
   git,
   // figma,
   // docker,
-  carrent,
-  jobit,
-  tripguide,
+  CJMeals,
+  ExpenseTracker,
+  freeX,
   Pandas,
   Numpy,
   // threejs,
@@ -141,66 +141,54 @@ const technologies = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CJ MEALS",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "CSS3",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: CJMeals,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Expense Tracker",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
+        name: "CSS3",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: ExpenseTracker,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Free-X",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: freeX,
     source_code_link: "https://github.com/",
   },
 ];
