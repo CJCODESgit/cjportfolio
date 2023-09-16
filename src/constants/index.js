@@ -143,7 +143,7 @@ const projects = [
   {
     name: "CJ MEALS",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users Choose your favorite meal from our broad selection of available meals and enjoy a delicious lunch or dinner at home.",
     tags: [
       {
         name: "ReactJS",
@@ -155,12 +155,13 @@ const projects = [
       },
     ],
     image: CJMeals,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/CJCODESgit/food-order-app",
+    website: "https://cjmeals.netlify.app/",
   },
   {
     name: "Expense Tracker",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Basic Expense Tracker Web application that enables users  to keep track of your spending and savings and filter them and view a chart that shows how much spent each month",
     tags: [
       {
         name: "ReactJS",
@@ -172,12 +173,13 @@ const projects = [
       },
     ],
     image: ExpenseTracker,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/CJCODESgit/Expense-Tracker",
+    website: "https://cjexpensetracker.netlify.app/",
   },
   {
     name: "Free-X",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      " We assess transaction efficiency, security, and fees for both crypto and traditional methods. Empowering your freelancing with seamless, confident transactions",
     tags: [
       {
         name: "ReactJS",
@@ -189,7 +191,8 @@ const projects = [
       },
     ],
     image: freeX,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/CJCODESgit/Free-X",
+    website: "https://free-x.netlify.app/",
   },
 ];
 
