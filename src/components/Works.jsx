@@ -1,12 +1,12 @@
 import { Tilt } from "react-tilt";
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
-import { github } from '../assets';
+import { github, webicon } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion';
 
-const ProjectCard = ({index, name, description, tags, image, source_code_link}) => {
+const ProjectCard = ({index, name, description, tags, image, source_code_link, website}) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
@@ -31,6 +31,18 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
               <img
                 src={github}
                 alt="github"
+                className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
+          </div>
+                    <div className="absolute inset-0 flex justify-start m-3 card-img_hover">
+            <div 
+              onClick={() => window.open(website, "_blank")}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={webicon}
+                alt="website"
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
@@ -71,7 +83,7 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px]
           max-w-3xl leading-[30px]" 
         >
-          Projects displayed below showcases my skills and my experience. It shows my ability to solve problems and work with different technologies. contains links to repositories and demos in it. click on the github logos to visit the github repository for each project.
+          Projects displayed below showcases my skills and my experience. It shows my ability to solve problems and work with different technologies. contains links to repositories and demos in it. click on the github logos to visit the github repository for each project or web-icon to visit the website.
         </motion.p>
 
       </div>
