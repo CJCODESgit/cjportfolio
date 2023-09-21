@@ -1,4 +1,4 @@
-import { useState, UseRef, useRef} from 'react';
+import { useState, useRef} from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 import { styles } from '../styles';
@@ -20,12 +20,28 @@ const Contact = () => {
   }
 
   const handleSubmit = (e) => {
-    
+
   }
 
   return (
-    <div>Contact</div>
+    <div className='xl: mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
+      <motion.div
+        variants={slideIn('left', 'tween', 0.2, 1)}
+        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+      >
+        <p className={styles.sectionSubText}>Get in touch</p>
+        <h3 className={styles.sectionHeadText}>Contact.</h3>
+
+        <form
+          ref={formRef}
+          
+        >
+
+        </form>
+      </motion.div>
+    </div>
   )
 }
 
-export default Contact
+// eslint-disable-next-line react-refresh/only-export-components
+export default SectionWrapper(Contact, "contact")
