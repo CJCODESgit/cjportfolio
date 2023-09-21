@@ -65,6 +65,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, w
   )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 const Works = () => {
   return (
     <>
