@@ -24,6 +24,10 @@ import {
   MaterialUI,
   Antdesign,
   firebase,
+  twitter,
+  linkedin,
+  instagram,
+  github,
 } from "../assets";
 
 export const navLinks = [
@@ -196,4 +200,27 @@ const projects = [
   },
 ];
 
-export { services, technologies, projects };
+const socialMedia = [
+  {
+    id: "social-media-1",
+    icon: instagram,
+    link: "https://www.instagram.com/cjcodes_/",
+  },
+  {
+    id: "social-media-3",
+    icon: twitter,
+    link: "https://twitter.com/CJCODES_",
+  },
+  {
+    id: "social-media-4",
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/john-covenant-amos/",
+  },
+  {
+    id: "social-media-5",
+    icon: github,
+    link: "https://github.com/CJCODESgit",
+  },
+];
+
+export { services, technologies, projects, socialMedia };
