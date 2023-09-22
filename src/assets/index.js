@@ -9,6 +9,10 @@ import cj from "./cj.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import linkedin from "./linkedin.svg"
+import twitter from "./twitter.svg"
+import instagram from "./instagram.svg"
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -64,4 +68,7 @@ export {
   ExpenseTracker,
   freeX,
   cj,
+  twitter,
+  linkedin,
+  instagram,
 };
