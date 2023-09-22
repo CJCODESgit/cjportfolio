@@ -20,6 +20,9 @@ const Hero = () => {
           </div>
           <img src={cj} alt="billing" className='w-40 h-40 mx-auto md:w-[30%] md:h-[40%] relative flex flex-col items-end md:ml-5' />
         </div>
+        <div>
+          
+        </div>
       </div>
 
       {/* button that moves users to the bottom of the contact section of the page */}
