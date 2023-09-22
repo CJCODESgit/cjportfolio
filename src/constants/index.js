@@ -202,14 +202,9 @@ const projects = [
 
 const socialMedia = [
   {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/cjcodes_/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://twitter.com/CJCODES_",
+    id: "social-media-5",
+    icon: github,
+    link: "https://github.com/CJCODESgit",
   },
   {
     id: "social-media-4",
@@ -217,9 +212,14 @@ const socialMedia = [
     link: "https://www.linkedin.com/in/john-covenant-amos/",
   },
   {
-    id: "social-media-5",
-    icon: github,
-    link: "https://github.com/CJCODESgit",
+    id: "social-media-3",
+    icon: twitter,
+    link: "https://twitter.com/CJCODES_",
+  },
+  {
+    id: "social-media-1",
+    icon: instagram,
+    link: "https://www.instagram.com/cjcodes_/",
   },
 ];
 
