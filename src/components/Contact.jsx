@@ -5,6 +5,9 @@ import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
+// VoHnMrZMkUb4VwZHN
+// template_4g87xlg
+// service_bma9e2c
 
 const Contact = () => {
   const formRef = useRef();
@@ -16,11 +19,14 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-
+    const { name, value } = e.target;
+    setForm({...form, [name]: value})
   }
 
   const handleSubmit = (e) => {
-
+    e.preventDefault();
+    setLoading(true)
+    emailjs.send()
   }
 
   return (
